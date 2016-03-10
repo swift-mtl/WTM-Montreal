@@ -15,4 +15,14 @@ Some experience with programming.
 - [Kitura] (https://github.com/IBM-Swift/Kitura) (A Swift Web Framework and HTTP Server)
 - [Cocoapods] (https://cocoapods.org) (Dependency manager for Swift and Objective-C Cocoa projects)
 
+####Dependencies (Included in this repo)
+- [Alamofire] (https://github.com/Alamofire/Alamofire) (Elegant HTTP Networking in Swift)
+- [ObjectMapper] (https://github.com/Hearst-DD/ObjectMapper) (Simple JSON Object mapping written in Swift)
+- [AlamofireObjectMapper] (https://github.com/tristanhimmelman/AlamofireObjectMapper) (An Alamofire extension which converts JSON response data into swift objects using ObjectMapper)
+- [Realm] (https://realm.io/docs/swift/latest/) (A mobile database)
+- [fabric] (https://get.fabric.io) (Crash reporting, application distribution and analytics platform by Twitter)
+- [Eureka] (https://github.com/xmartlabs/Eureka) (Elegant iOS form builder in Swift)
+- [PKHUD] (https://github.com/pkluz/PKHUD) (A Swift based reimplementation of the Apple HUD) 
+
+
 
