@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCA140B1C920E5F00E5E17B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA140A1C920E5F00E5E17B /* AppDelegate.swift */; };
+		3DCA14271C9218F100E5E17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA141D1C9218F100E5E17B /* Assets.xcassets */; };
+		3DCA14281C9218F100E5E17B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA141F1C9218F100E5E17B /* ViewController.swift */; };
+		3DCA14291C9218F100E5E17B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA14211C9218F100E5E17B /* LaunchScreen.storyboard */; };
+		3DCA142A1C9218F100E5E17B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA14231C9218F100E5E17B /* Main.storyboard */; };
+		AC4D32FF8D1CF20B73F72D65 /* Pods_WTM_CodeLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218A8AA370A9EFCA689E8DDD /* Pods_WTM_CodeLab.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		218A8AA370A9EFCA689E8DDD /* Pods_WTM_CodeLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTM_CodeLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		267EF306F7BF9DD8A6F2B939 /* Pods-WTM-CodeLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTM-CodeLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTM-CodeLab/Pods-WTM-CodeLab.debug.xcconfig"; sourceTree = "<group>"; };
+		3DCA14071C920E5F00E5E17B /* WTM-CodeLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WTM-CodeLab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCA140A1C920E5F00E5E17B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DCA14161C920E6000E5E17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCA141D1C9218F100E5E17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCA141F1C9218F100E5E17B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCA14221C9218F100E5E17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DCA14241C9218F100E5E17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A0925EF6DEAEFC6F74EC58C /* Pods-WTM-CodeLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTM-CodeLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTM-CodeLab/Pods-WTM-CodeLab.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCA14041C920E5F00E5E17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D32FF8D1CF20B73F72D65 /* Pods_WTM_CodeLab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCA13FE1C920E5F00E5E17B = {
+			isa = PBXGroup;
+			children = (
+				3DCA14091C920E5F00E5E17B /* WTM-CodeLab */,
+				3DCA14081C920E5F00E5E17B /* Products */,
+				5A44A00D45E2B2F04EDB2F99 /* Pods */,
+				6E286CD1A650DC33AA9140E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCA14081C920E5F00E5E17B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA14071C920E5F00E5E17B /* WTM-CodeLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCA14091C920E5F00E5E17B /* WTM-CodeLab */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA140A1C920E5F00E5E17B /* AppDelegate.swift */,
+				3DCA141E1C9218F100E5E17B /* Controllers */,
+				3DCA14161C920E6000E5E17B /* Info.plist */,
+				3DCA14251C9218F100E5E17B /* Managers */,
+				3DCA14261C9218F100E5E17B /* Models */,
+				3DCA141C1C9218F100E5E17B /* Resources */,
+				3DCA14201C9218F100E5E17B /* Views */,
+			);
+			path = "WTM-CodeLab";
+			sourceTree = "<group>";
+		};
+		3DCA141C1C9218F100E5E17B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA141D1C9218F100E5E17B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3DCA141E1C9218F100E5E17B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA141F1C9218F100E5E17B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3DCA14201C9218F100E5E17B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA14211C9218F100E5E17B /* LaunchScreen.storyboard */,
+				3DCA14231C9218F100E5E17B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DCA14251C9218F100E5E17B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3DCA14261C9218F100E5E17B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A44A00D45E2B2F04EDB2F99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				267EF306F7BF9DD8A6F2B939 /* Pods-WTM-CodeLab.debug.xcconfig */,
+				7A0925EF6DEAEFC6F74EC58C /* Pods-WTM-CodeLab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E286CD1A650DC33AA9140E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				218A8AA370A9EFCA689E8DDD /* Pods_WTM_CodeLab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCA14061C920E5F00E5E17B /* WTM-CodeLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCA14191C920E6000E5E17B /* Build configuration list for PBXNativeTarget "WTM-CodeLab" */;
+			buildPhases = (
+				F6D6FBECFFBFCBC157CAABE3 /* Check Pods Manifest.lock */,
+				3DCA14031C920E5F00E5E17B /* Sources */,
+				3DCA14041C920E5F00E5E17B /* Frameworks */,
+				3DCA14051C920E5F00E5E17B /* Resources */,
+				3EAD362A1E7C99CE64EC8EFB /* Embed Pods Frameworks */,
+				77AE6C45C1513B8707F4CA8D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WTM-CodeLab";
+			productName = "WTM-CodeLab";
+			productReference = 3DCA14071C920E5F00E5E17B /* WTM-CodeLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCA13FF1C920E5F00E5E17B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Swift-Mtl";
+				TargetAttributes = {
+					3DCA14061C920E5F00E5E17B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DCA14021C920E5F00E5E17B /* Build configuration list for PBXProject "WTM-CodeLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCA13FE1C920E5F00E5E17B;
+			productRefGroup = 3DCA14081C920E5F00E5E17B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCA14061C920E5F00E5E17B /* WTM-CodeLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCA14051C920E5F00E5E17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCA142A1C9218F100E5E17B /* Main.storyboard in Resources */,
+				3DCA14271C9218F100E5E17B /* Assets.xcassets in Resources */,
+				3DCA14291C9218F100E5E17B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EAD362A1E7C99CE64EC8EFB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTM-CodeLab/Pods-WTM-CodeLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77AE6C45C1513B8707F4CA8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTM-CodeLab/Pods-WTM-CodeLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D6FBECFFBFCBC157CAABE3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCA14031C920E5F00E5E17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCA14281C9218F100E5E17B /* ViewController.swift in Sources */,
+				3DCA140B1C920E5F00E5E17B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DCA14211C9218F100E5E17B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCA14221C9218F100E5E17B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3DCA14231C9218F100E5E17B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCA14241C9218F100E5E17B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCA14171C920E6000E5E17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DCA14181C920E6000E5E17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCA141A1C920E6000E5E17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267EF306F7BF9DD8A6F2B939 /* Pods-WTM-CodeLab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WTM-CodeLab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetup.swift-mtl.WTM-CodeLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DCA141B1C920E6000E5E17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0925EF6DEAEFC6F74EC58C /* Pods-WTM-CodeLab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WTM-CodeLab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetup.swift-mtl.WTM-CodeLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCA14021C920E5F00E5E17B /* Build configuration list for PBXProject "WTM-CodeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCA14171C920E6000E5E17B /* Debug */,
+				3DCA14181C920E6000E5E17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCA14191C920E6000E5E17B /* Build configuration list for PBXNativeTarget "WTM-CodeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCA141A1C920E6000E5E17B /* Debug */,
+				3DCA141B1C920E6000E5E17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCA13FF1C920E5F00E5E17B /* Project object */;
+}
